@@ -19,7 +19,12 @@ namespace _201831980223刘晓辉.Controllers
 
             return View();
         }
-
+        public ActionResult MyAction1()
+        {
+            ViewBag.Message = "这是我的第一个action";
+            ViewBag.Xinxi = "lxh201831980223";
+            return View();
+        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
